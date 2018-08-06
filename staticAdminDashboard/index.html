@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<title>AdminPage</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+
+</head>
+<body>
+
+	<!--navbar starts here-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Admin Dashboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Status <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-chart-line"></i> Dashboard</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><i class="fas fa-wrench"></i> Settings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><i class="fas fa-plus"></i> Add Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--navbar ends here-->
+
+<!--offsetting colum content-->
+<div class="container-fluid">
+  <div class="row">
+  	<div class="col-sm-3 col-md-2">
+  		<ul class="nav flex-column">
+  		<li class="active"><a href="#"><i class="fas fa-info-circle"></i> Reports</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-chart-bar"></i> Stats</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-chart-line"></i> Graphs</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-user"></i> Users</a></li>
+  		</ul>
+  		<ul class="nav flex-column">
+  		<li class="active"><a href="#"><i class="fas fa-sitemap"></i> Content</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-adjust"></i> Revenue</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-globe"></i> Countries</a></li>
+  		<hr>
+  		<li><a href="#"><i class="fas fa-ban"></i> Spammers</a></li>
+  		</ul>
+  	</div>
+  	<div class="col-sm-9 col-md-10 main">
+  		<h1 class="page=header"><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+  		<div class="row placeholders">
+  		<div class="col-xs-6 col-sm-3 placeholder">
+  			<img src="images/graph.jpg" class="img-fluid" width="200" height="200">
+  			<h4>Label</h4>
+  			<p>Lorem ipsum dolor sit amet, bla bla bla bla</p>
+  		</div>
+  		<div class="col-xs-6 col-sm-3 placeholder">
+  			<img src="images/graph.jpg" class="img-fluid" width="200" height="200">
+  			<h4>Label</h4>
+  			<p>Lorem ipsum dolor sit amet, bla bla bla bla</p>
+  		</div>
+  		<div class="col-xs-6 col-sm-3 placeholder">
+  			<img src="images/graph.jpg" class="img-fluid" width="200" height="200">
+  			<h4>Label</h4>
+  			<p>Lorem ipsum dolor sit amet, bla bla bla bla</p>
+  		</div>
+  		<div class="col-xs-6 col-sm-3 placeholder">
+  			<img src="images/graph.jpg" class="img-fluid" width="200" height="200">
+  			<h4>Label</h4>
+  			<p>Lorem ipsum dolor sit amet, bla bla bla bla</p>
+  		</div>
+  		</div>
+  		<h2 class="sub-header">Detailed Results</h2>
+  		<!-- creating the table under Detailed Results-->
+  		<div class="table-responsive">
+  			<table class="table table-striped">
+  				<thead>
+  					<tr>
+  						<th>ID#</th>
+  						<th>Detail 1#</th>
+  						<th>Detail 2#</th>
+  						<th>Detail 3#</th>
+  						<th>Detail 4#</th>
+  					</tr>
+  				</thead>
+  				<tbody>
+  					<tr>
+  						<td>53</td>
+  						<td>Nik</td>
+  						<td>Pentesting</td>
+  						<td>China</td>
+  						<td>112$</td>
+  					</tr>
+  					<tr>
+  						<td>43</td>
+  						<td>John</td>
+  						<td>App testing</td>
+  						<td>Germany</td>
+  						<td>180$</td>
+  					</tr>
+  					<tr>
+  						<td>53</td>
+  						<td>Nik</td>
+  						<td>Pentesting</td>
+  						<td>Greece</td>
+  						<td>130$</td>
+  					</tr>
+  					<tr>
+  						<td>178</td>
+  						<td>George</td>
+  						<td>Administrator 2</td>
+  						<td>USA</td>
+  						<td>140$</td>
+  					</tr>
+  					<tr>
+  						<td>79</td>
+  						<td>George</td>
+  						<td>Pentesting</td>
+  						<td>UK</td>
+  						<td>160$</td>
+  					</tr>
+  					<tr>
+  						<td>122</td>
+  						<td>Marco</td>
+  						<td>Pentesting</td>
+  						<td>Italy</td>
+  						<td>125$</td>
+  					</tr>
+  					<tr>
+  						<td>562</td>
+  						<td>Jose</td>
+  						<td>Database admin</td>
+  						<td>Spain</td>
+  						<td>140$</td>
+  					</tr>
+  					<tr>
+  						<td>533</td>
+  						<td>Niklaus</td>
+  						<td>Server Admin</td>
+  						<td>Russia</td>
+  						<td>130$</td>
+  					</tr>
+  				</tbody>
+  			</table>
+  		</div>
+  	</div>
+
+  </div>
+  <!-- footer starts here need more work -->
+
+  <footer class="footer">
+  		<p class="float-right">Copyrights owned by Tsokis Organization 2018</p>
+  	</footer>
+  	<!-- footer ends here-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>

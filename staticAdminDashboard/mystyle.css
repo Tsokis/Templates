@@ -1,0 +1,40 @@
+body{
+	font-family: 'Amaranth', sans-serif;
+}
+
+.flex-column >li >a{
+	padding: 20px 20px;
+}
+
+.flex-column {
+	margin: 50px -20px 20px 20px;
+}
+
+.main{
+	
+	padding: 20px
+}
+/* both placeholder classes are for manipulating the images **/
+.placeholders{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.placeholder{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* changing image to inline alignment and circle style **/
+.placeholder img{
+	display: inline;
+	border-radius: 50%; 
+}
+
+.float-right{
+	
+	background-color: #e6e6e6;
+	margin-right: 150px;
+	
+
+}
