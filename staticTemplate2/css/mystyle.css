@@ -1,0 +1,21 @@
+body{
+	padding-top: 20px;
+}
+
+#navbar{
+	background-color: #eee;
+	border-radius: 5px;
+	
+	padding: 15px 0;
+	text-align: center;
+
+}
+#jumbotron{
+	text-align: center;
+	background-color: transparent; 
+}
+#button{
+	padding: 15px 25px;
+	font-size: 22px;
+}
+
