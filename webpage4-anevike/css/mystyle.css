@@ -1,0 +1,56 @@
+.section {
+  min-height: 1000px;
+  overflow: hidden;
+  position: relative;
+  padding: 90px 10px 0px;
+  background-size: cover;
+}
+
+.section:nth-child(even) {
+  background-color: #ccc;
+}
+
+#home {
+  background: url(../images/beach.jpg) no-repeat center center fixed;
+}
+
+#home div {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+#about {
+  background: url(../images/yacht.jpg) no-repeat center center fixed;
+}
+
+#about div {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#services {
+  background: url(../images/sea.jpg) no-repeat center center fixed;
+}
+
+#products div {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+#contact {
+  background: url(../images/cafe.jpg) no-repeat center center fixed;
+}
+
+#contact>div {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.colorText {
+  color: green;
+}
